@@ -10,8 +10,8 @@ title: Publications
   _Augmented Reality Visualization of Autonomous Mobile Robot Change Detection in Uninstrumented Environments_.  
   In submission.
 - Kerstin S. Haring, Daniel E. Pittman, **Benjamin Dossett**.  
-  _A Human-Centered Approach to Evaluating Robot Theory of Mind (RToM)_.  
+  [_A Human-Centered Approach to Evaluating Robot Theory of Mind (RToM)_.](/research/papers/RSS_workshop__Social_Intelligence_in_Humans_and_Robots.pdf)  
   Social Intelligence in Humans and Robots Workshop at RSS 2022.
 - Weston Laity, **Benjamin Dossett**, Robel Mamo, Kerstin S. Haring, Daniel E. Pittman.  
-  [_Active Participatory Social Robot Design using Mind Perception Attributes_](/research/papers/RSS_workshop__Social_Intelligence_in_Humans_and_Robots.pdf).  
+  _Active Participatory Social Robot Design using Mind Perception Attributes_.  
   Accepted at the 2022 International Conference on Social Robotics (ICSR).
