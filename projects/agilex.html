@@ -5,11 +5,13 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="color-scheme" content="light dark" />
-    <title>ROS Stack Integration on AgileX Scout Mini | Ben Dossett</title>
+    <title>Ben Dossett | ROS Stack Integration on AgileX Scout Mini</title>
     <meta name="description" content="Ben Dossett, Robotics Researcher @ University of Denver" />
 
     <link rel="stylesheet" href="../pico.min.css">
     <link rel="stylesheet" href="../style.css">
+
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js"></script>
 </head>
 
 <body>
@@ -48,7 +50,50 @@
     </header>
 
     <main class="container">
+        
         <h1>ROS Stack Integration on AgileX Scout Mini</h1>
+        <p><kbd>Project</kbd></p>
+
+        <h3>Robots!</h3>
+        <p>In the Autonomous Robotics and Interactive Systems Experimental (ARISE) Lab at the University of Denver, we recently purchased two brand new ground robot platforms, namely AgileX Scout Minis.</p>
+        <p>The platforms came out of the box pretty barebones. I worked with others in the lab to spec out a sensor and compute suite for the robots. We wanted to make sure these would be at least as capable as our existing Jackal platform, and ideally even more capable.</p>
+
+        <figure>
+            <img src="../images/scout/scout_unboxing.jpg" alt="AgileX Scout Mini in it's shipping box.">
+            <figcaption>
+                One of the new Scout Minis as it was getting unboxed!
+            </figcaption>
+        </figure>
+        
+
+        <p>Here's the spec list we came up with:</p>
+        <ul>
+            <li>AgileX Scout Mini Base</li>
+            <li>OnLogic Karbon 803 Computer</li>
+            <ul>
+                <li>Intel i9-12900TE</li>
+                <li>32 GB RAM</li>
+                <li>1 TB Storage</li>
+                <li>Nvidia T1000</li>
+            </ul>
+            <li>Ouster OS-1 32 Channel LIDAR Sensor</li>
+            <li>Lord Microstrain 3DM-GX5-25 IMU</li>
+            <li>Intel Realsense D455 RGBD Camera</li>
+        </ul>
+
+        <h3>Hardware Integration</h3>
+
+        <p>The first step was to build a mounting system for our sensors and compute. We went through several design iterations for this, eventually settling on a modular design using 8020 aluminium extrusion. I worked on the fabrication of this design in the machine shop at DU (thanks Justin!!), and also designed a simple sensor mounting plate in Fusion360.</p>
+
+
+        <p>After getting everything mounted up, the next step was getting the electronics wired up. This ended up being simple, as our spec for the platforms included quick-connect points to get CANBUS and 24v from the robot.</p>
+
+        <model-viewer alt="The sensor plate designed for the robots." src="../images/scout/Sensor_Plate_v6.gltf"  shadow-intensity="1" camera-controls touch-action="pan-y" width="500px" height="400px"></model-viewer>
+
+        <h3>Software Integration</h3>
+
+        <p>Finally, the main hurdle remaining was software integration.</p>
+
     </main>
 
     <footer>

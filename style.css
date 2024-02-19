@@ -8,10 +8,8 @@
 }
 
 nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: end;
 }
 
 nav ul {
@@ -49,24 +47,24 @@ main {
 
 .card-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     align-items: center;
-    gap: 1em;
+    gap: 0.75em;
 }
 
 .card {
     border-radius: 1em;
     outline: 1px solid rgb(28, 33, 44);
 
-    max-width: 400px;
+    max-width: 350px;
 }
 
-.card * {
+.card img, .card h4, .card small {
     margin: 0 auto 0.5em auto;
     display: block;
     border-radius: 1em;
-    max-height: 350px;
-    max-width: 350px;
+    max-height: 300px;
+    max-width: 300px;
     text-decoration: none;
 }
 
@@ -90,6 +88,21 @@ main {
     margin: 1em auto 0 auto;
 }
 
+.card button {
+    width: 100%;
+    border-radius: 1em;
+}
+
 #projects {
     margin-bottom: 2em;
+}
+
+figure img {
+    max-width: min(100%, 500px);
+}
+
+model-viewer{
+    max-width: min(100%, 500px);
+    width:400px;
+    height:400px;
 }
