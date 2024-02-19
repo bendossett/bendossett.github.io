@@ -1,0 +1,43 @@
+#header-text {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;    
+    margin-bottom: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#intro-image {
+    width: 15em;
+    border-radius: 2em;
+}
+
+main {
+    section {
+        width: 100%;
+    }
+}
+
+.v-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.h-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
