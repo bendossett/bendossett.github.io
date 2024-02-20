@@ -1,6 +1,6 @@
 :root {
-    --pico-background-color: #151922 !important;
-    --pico-card-background-color: #252b38 !important;
+    /* --pico-background-color: #151922 !important; */
+    /* --pico-card-background-color: #252b38 !important; */
 }
 
 #header-text {
@@ -97,7 +97,7 @@ main {
     margin-bottom: 2em;
 }
 
-figure img {
+figure img.small {
     max-width: min(100%, 500px);
 }
 
